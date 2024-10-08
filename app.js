@@ -36,5 +36,30 @@ class Car {
     }
 }
 
-let mehran=new Car();
-mehran.colorOfCar("blue");
+let mehran=new Car("white");
+
+// Inheritance
+
+class Person{
+    constructor()
+    {
+        
+    }
+    eat()
+    {
+        console.log("Eat food");
+    }
+    drink(){
+        console.log("Drink Water");
+    }
+}
+
+class Doctor extends Person
+{
+    treat()
+    {
+        console.log("Treat Patient");
+    }
+}
+
+let doctor=new Doctor();
