@@ -23,16 +23,16 @@ Chaudhary.__proto__=Employee;
 
 // Creating first class.
 class Car {
+    constructor(color)
+    {
+        this.color=color;
+    }
     start(){
         console.log("Start Car");
     }
 
     stop() {
         console.log("Stop Car");
-    }
-
-    colorOfCar(color){
-        this.color=color;
     }
 }
 
