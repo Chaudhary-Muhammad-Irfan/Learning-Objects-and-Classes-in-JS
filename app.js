@@ -20,3 +20,21 @@ const Chaudhary ={
     salary:4000
 };
 Chaudhary.__proto__=Employee;
+
+// Creating first class.
+class Car {
+    start(){
+        console.log("Start Car");
+    }
+
+    stop() {
+        console.log("Stop Car");
+    }
+
+    colorOfCar(color){
+        this.color=color;
+    }
+}
+
+let mehran=new Car();
+mehran.colorOfCar("blue");
