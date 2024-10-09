@@ -56,6 +56,12 @@ class Person{
 
 class Doctor extends Person
 {
+    constructor()
+    {
+        // To first call the constructor of parent class before the child class constructor we use super key word.
+        super();
+        console.log("Doctor Constructor");
+    }
     treat()
     {
         console.log("Treat Patient");
@@ -63,3 +69,5 @@ class Doctor extends Person
 }
 
 let doctor=new Doctor();
+
+
