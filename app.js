@@ -71,3 +71,18 @@ class Doctor extends Person
 let doctor=new Doctor();
 
 
+
+
+// Error handling in JS
+
+let a=5;
+let b=3;
+try{
+    console.log(a+c);
+    // agr JS m error a jaye kissi line m to us k baad wali lines execute ni hoti . 
+    // agr hummy doubt ho k is line  m error a skta ha to ussy try catch block m likhty ha .
+}
+catch(err)
+{
+    console.log(err);
+}
